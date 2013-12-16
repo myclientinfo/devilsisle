@@ -11,7 +11,7 @@
 |
 */
 
-//View::share('categories', Category::all());
+View::share('categories', Category::remember(5)->get());
 
 Route::get('/', 'AnimalsController@home');
 
