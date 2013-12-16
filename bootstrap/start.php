@@ -26,12 +26,20 @@ $app->redirectIfTrailingSlash();
 |
 */
 
-$env = $app->detectEnvironment(array(
+$envMapping = [
+    'devils-isle.eu1.frbit.net' => 'production',
+    'www.devilsisle.com' => 'production',
+    'devilsisle.com' => 'production',
+    'devils'            => 'development',
+    // ..
+];
+$env = $app->detectEnvironment(function () use ($envMapping) {
+    return isset($envMapping[$_SERVER['SERVER_NAME']])
+        ? $envMapping[$_SERVER['SERVER_NAME']]
+        : 'production'; // or whatever fallback you prefer
 
-	'local' => array('your-machine-name'),
-
-));
-
+});
+//dd();
 /*
 |--------------------------------------------------------------------------
 | Bind Paths
