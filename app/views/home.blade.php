@@ -51,7 +51,7 @@
               <div>
             <section class="maxheight">
                   <h4>WEIRD SHIT</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad</p>
+                  <p>Some of Australia's nastiest villains include a tiny octopus, a marine snail and even a venomous shrimp. </p>
                 </section>
             <a href="/Animals/other" class="link">read more</a> </div>
             </article>
@@ -66,18 +66,11 @@
           <div class="container">
         <div class="row">
               <article class="span3">
-            <h3>Our capabilities:</h3>
+            <h3>All Animal Groups</h3>
             <ul class="list">
-                  <li><a href="#">Soil health and preparation</a></li>
-                  <li><a href="#">Input sourcing</a></li>
-                  <li><a href="#">Water conservation</a></li>
-                  <li><a href="#">Pest management</a></li>
-                  <li><a href="#">Brands</a></li>
-                  <li><a href="#">Agricultural Seeds</a></li>
-                  <li><a href="#">Traits &amp; Technologies</a></li>
-                  <li><a href="#">Vegetable Seeds</a></li>
-                  <li><a href="#">Weed Control</a></li>
-                  <li><a href="#">Products</a></li>
+            @foreach($categories as $category)
+                  <li><a href="/Animal/<?php echo $category->stub?>"><?php echo $category->name?></a></li>
+              @endforeach                  
                 </ul>
           </article>
               <article class="span6">
@@ -110,19 +103,15 @@
                 </div>
           </article>
               <article class="span3">
-            <h3 class="color2">our products:</h3>
+            <h3 class="color2">THE WORST:</h3>
             <ul class="list-vegetables">
+            @foreach($danger as $animal)
                   <li>
-                <figure><a href="#"><img src="img/page1-img2.jpg " alt="" /></a></figure>
+                <div><a href="/Animals/{{$animal->category->slug}}/{{$animal->slug}}"><img src="images/{{$animal->slug}}/{{$animal->slug}}.jpg " alt="" class="span3 animal-vegetable {{$animal->slug}}"></a></div>
               </li>
-                  <li>
-                <figure><a href="#"><img src="img/page1-img3.jpg " alt="" /></a></figure>
-              </li>
-                  <li>
-                <figure><a href="#"><img src="img/page1-img4.jpg " alt="" /></a></figure>
-              </li>
+              @endforeach
                 </ul>
-            <div class="right"><a href="#" class="link2">more products</a> </div>
+           
           </article>
             </div>
       </div>
