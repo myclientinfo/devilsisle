@@ -44,6 +44,27 @@ div.stat-bar span {
 .bar4, .bar5, .bar6, .bar7 {background-color: yellow;}
 .bar8, .bar9, .bar10 {background-color: red;}
 
+
+ul.list-vegetables div {
+height: 70px; overflow: hidden; position: relative;
+}
+
+ul.list-vegetables img.animal-vegetable {
+  position: absolute; bottom: -8px;left: -30px;
+}
+
+ul.list-vegetables img.stonefish, ul.list-vegetables img.eastern-brown-snake {
+  bottom: -32px;
+}
+
+ul.list-vegetables img.box-jellyfish {
+  bottom: -190px;
+}
+
+ul.list-vegetables img.blue-ringed-octopus {
+  bottom: -86px;
+} 
+
 /* CSS Document */
 a[href^="tel:"] {
   color: inherit;
