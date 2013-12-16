@@ -73,7 +73,7 @@
               @endforeach                  
                 </ul>
           </article>
-              <article class="span6">
+              <article class="span6" style="opacity: 0">
             <div class="clearfix pad-top">
                   <figure class="img-indent1"><img src="img/page1-img1.jpg " alt="" /></figure>
                   <div class="title-1">Implementing 

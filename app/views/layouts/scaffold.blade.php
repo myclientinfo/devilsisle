@@ -102,7 +102,7 @@
       <div class="block-main">
     <div class="container">
           <div class="row">
-        <article class="span2 offset3">
+        <article class="span2 offset3" style="opacity: 0">
               <ul class="list-1">
             <li><a href="#">Contact</a></li>
             <li><a href="#">Delivery</a></li>
@@ -111,7 +111,7 @@
             <li><a href="#">About us</a></li>
           </ul>
             </article>
-        <article class="span2">
+        <article class="span2" style="opacity: 0">
               <ul class="list-1">
             <li><a href="#">Science &amp; Safety</a></li>
             <li><a href="#">Product Overview</a></li>
@@ -120,7 +120,7 @@
             <li><a href="#">Traits &amp; Technologies</a></li>
           </ul>
             </article>
-        <article class="span2">
+        <article class="span2" style="opacity: 0">
               <ul class="list-1">
             <li><a href="#">New products</a></li>
             <li><a href="#">Top sellers</a></li>
@@ -130,7 +130,7 @@
           </ul>
             </article>
         <article class="span3">
-              <div class="box-newsletter">
+              <div class="box-newsletter" style="opacity: 0">
             <h3>newsletter:</h3>
             <form id="form1">
                   <div class="success"><span>Your subscribe request<br>
