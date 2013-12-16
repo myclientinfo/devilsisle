@@ -24,7 +24,11 @@ Route::get('/Contact', function(){
 	return View::make('contact');
 });
 
+Route::get('/About', function(){
+	return View::make('about');
+});
+
 Route::post('/Contact', function(){
 	
-	return View::make('contact-confirm');
+	return 'Thanks';
 });
