@@ -1417,6 +1417,10 @@ aside .span2 {
   body {
     padding: 0;
   }
+
+  #logo {
+    display: none;
+  }
   .block-main {
     width: 96%;
     -webkit-box-sizing: border-box;
