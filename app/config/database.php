@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'devils',
-			'username'  => 'devils',
-			'password'  => '',
+			'host'      => 'devils-isle.mysql.eu1.frbit.com',
+			'database'  => 'devils-isle',
+			'username'  => 'devils-isle',
+			'password'  => 'JH8hOLzm76fh4gU0',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
