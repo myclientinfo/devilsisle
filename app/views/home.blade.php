@@ -69,7 +69,7 @@
             <h3>All Animal Groups</h3>
             <ul class="list">
             @foreach($categories as $category)
-                  <li><a href="/Animal/<?php echo $category->stub?>"><?php echo $category->name?></a></li>
+                  <li><a href="/Animals/{{$category->slug}}"><?php echo $category->name?></a></li>
               @endforeach                  
                 </ul>
           </article>
