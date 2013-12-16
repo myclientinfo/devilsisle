@@ -155,10 +155,10 @@
 <!--============================== footer =================================-->
 <footer>
       <div class="container">
-    <div class="privacy"> <img src="img/logo-footer.png" alt="" class="logo-footer"/> &copy; 2013 <a href="index-5.html">Privacy policy</a> &nbsp;<!-- {%FOOTER_LINK} --> 
+    <div class="privacy"> <img src="/img/logo-footer.png" alt="" class="logo-footer"/> &copy; 2013  &nbsp;<!-- {%FOOTER_LINK} --> 
      </div>
   </div>
 </footer>
-<script  src="js/bootstrap.js"></script>
+<script  src="/js/bootstrap.js"></script>
 </body>
 </html>
