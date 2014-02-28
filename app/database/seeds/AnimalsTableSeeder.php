@@ -120,7 +120,7 @@ Nope. Not in any way. Like most spiders its venom is not harmful to people, and 
 
 These spiders eat insects, including harmful ones. They’re entirely beneficial.
 
-There are lots of nasty things in Australia, including some absolute horrors. That’s what this site is all about. But there are also plenty of things in Australia that get a really bad wrap. They don’t need to be burned with fire. They aren’t a “nope”. Just critters going about their daily lives. It’s not their fault that we think they’re gross.
+There are lots of nasty things in Australia, including some absolute horrors. That’s what this site is all about. But there are also plenty of things in Australia that get a really bad rap. They don’t need to be burned with fire. They aren’t a “nope”. Just critters going about their daily lives. It’s not their fault that we think they’re gross.
 
 And Jesus Hillary Christ are they gross.',
 					'short_description'=>'',
@@ -350,7 +350,7 @@ This is the difference between that latter and this guy. Venomous and poisonous 
 
 This means that unlike the Blue-Ringed Octopus, Pfeffer’s Flamboyant Cuttlefish can stay being considered just... fabulous.',
 					'short_description'=>'',
-					'appearance'=>'0',
+					'appearance'=>'1',
 					'danger'=>'2',
 					'risk'=>'2',
 					'category_id'=>'8',
@@ -378,7 +378,7 @@ Most stings from platypus occured when it was still legal to hunt them for their
 
 There is absolutely no chance of being attacked by a platypus in any other situation. They left long before you knew they were there.',
 					'short_description'=>'',
-					'appearance'=>'0',
+					'appearance'=>'1',
 					'danger'=>'5',
 					'risk'=>'1',
 					'category_id'=>'10',
@@ -526,7 +526,7 @@ Australian Aboriginals historically were very fond of these. If encountered whil
 
 There’s no need to ask if this is a dangerous snake. Yes. Yes it is.
 
-Death Adders are a very distinctive looking snake. They have a shortish, squat body. Their tail tapers off and becomes just a bit skinny, just a bit quickly. The head is triangular, and pokes out from the neck, unlike most venomous Australian snakes, which have a flat connection between their neck and body. This makes them look a lot like a viper or adder, which is where the name comes from, though they’re not in any way part of the adder family, or even closely related. They’re not an especially large snake, maxing out at around three metres.
+Death Adders are a very distinctive looking snake. They have a shortish, squat body. Their tail tapers off and becomes just a bit skinny, just a bit quickly. The head is triangular, and pokes out from the neck, unlike most venomous Australian snakes, which have a flat connection between their neck and body. This makes them look a lot like a viper or adder, which is where the name comes from, though they’re not in any way part of the adder family, or even closely related. They’re not an especially large snake, maxing out at around a metre.
 
 One of the fun things about it is that it doesn’t give a shit.  There’s a theory that the name Death Adder is actually a corruption of “deaf” adder. Most snakes, even venomous ones, will avoid people by slithering off before you even know they’re there. This stops us stepping on them. Not the Death Adder, though. If a person comes blundering through the Death Adder’s peaceful slumber he has an alternative option: just add some death.
 
@@ -623,8 +623,8 @@ As a random point, the “spider” used as a demo for curses in the Harry Potte
 Spikey. Terrifying. Less dangerous than a kitten.',
 					'short_description'=>'',
 					'appearance'=>'10',
-					'danger'=>'0',
-					'risk'=>'0',
+					'danger'=>'1',
+					'risk'=>'1',
 					'category_id'=>'6',
 					'environment_id'=>'1'
 					],

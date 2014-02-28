@@ -1,3 +1,25 @@
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+#base-block {
+  float: left; 
+  margin-left: 400px; 
+  position: relative; 
+  top: -96px; 
+  padding-right: 90px;
+}
+
+textarea#message{
+  width: 400px;
+  height: 200px;
+}
+
+#base-block p{
+  font-size:14px;
+}
+
 a.image-link {
   height: 175px;
   overflow: hidden;

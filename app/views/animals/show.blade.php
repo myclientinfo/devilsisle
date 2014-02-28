@@ -33,6 +33,12 @@
 
                     <div id="details-panel" class="panel">
 
+                        @if($animal->aka)
+                        <div class="row">
+                            <div class="span1"><b>Also</b></div>
+                            <div class="span3">{{{ $animal->aka }}}</div>
+                        </div>
+                        @endif
                         <div class="row">
                             <div class="span1"><b>Species</b></div>
                             <div class="span3">{{{ $animal->species }}}</div>
@@ -42,7 +48,7 @@
                             <div class="span3">{{{ $animal->category->name }}}</div>
                         </div>
                         <div class="row">
-                            <div class="span1"><b>Appearance</b></div>
+                            <div class="span1"><b>Scariness</b></div>
                             <div class="span3">
                                 <div class="stat-bar" style="height: 10px;">
                                 <?php for($i = 1; $i<=$animal->appearance;$i++){ ?>

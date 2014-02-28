@@ -29,6 +29,9 @@ Route::get('/About', function(){
 });
 
 Route::post('/Contact', function(){
-	
-	return 'Thanks';
+	Mail::send('emails.contact', array('data'=>Input::all()), function($message)
+	{
+	    $message->to('matt@myclient.info', 'Matt Burgess')->subject('Contact!');
+	});
+	return View::make('contact-confirm');
 });

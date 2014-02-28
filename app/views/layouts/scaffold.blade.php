@@ -67,23 +67,25 @@
 	<body>
 <div class="bg-main"> 
       <!--============================== header =================================-->
-      
+
+<?php $path = Route::getCurrentRoute()->getPath() ?>
+
   <header>
     <div class="container">
      <div class="navbar navbar_ clearfix">
         <h1 class="brand"><a href="/"><img alt="Devil's Isle" id="logo" src="/img/logo.png"></a></h1>
         <div class="nav-collapse nav-collapse_  collapse">
               <ul class="nav sf-menu">
-            <li class="current"><a href="/">Home</a></li>
-            <li><a href="/About/">What is Devil's Isle</a></li>
-            <li><a href="/Animals/">Animals</a>
+            <li{{$path == '/'? ' class="current"': ''}}><a href="/">Home</a></li>
+            <li{{$path == '/About'? ' class="current"': ''}}><a href="/About/">What is Devil's Isle</a></li>
+            <li{{ Request::is('Animals/*')|| $path == '/Animals'? ' class="current"' : ''}}><a href="/Animals/">Animals</a>
                   <ul>
                 @foreach($categories as $category)
                     <li><a href="/Animals/{{$category->slug}}">{{$category->name}}</a></li>
                 @endforeach
               </ul>
            </li>
-            <li><a href="/Contact">Contact</a></li>
+            <li{{$path == '/Contact'? ' class="current"': ''}}><a href="/Contact">Contact</a></li>
           </ul>
        </div>
       </div>
@@ -145,16 +147,25 @@
             </article>
       </div>
         </div>
+         <div id="base-block">
+      
+         <p>While effort has been taken to ensure the accuracy of data here, accurately sorting animals into useful and navigable groups without making a mess of it is beyond the scope of a site like this. Some animal groupings, such as separating arachnids and spiders, is to help non-experts find animals of interest, rather than to be strictly accurate.</p>
+
+         <p>Also, poisonous means something you eat. Snakes and spiders are venomous. Just saying.</p>
+    </div>
     <div class="box-aside">
+    
           <h3>NOTES ON TAXONOMY AND TERMINOLOGY</h3>
-       <a href="/About" class="link1">read more</a> </div>
+       <a href="/About" class="link1">read more</a></div>
   </div>
+
+ 
  </aside>
 
 <!--============================== footer =================================-->
 <footer>
       <div class="container">
-    <div class="privacy"> <img src="/img/logo-footer.png" alt="" class="logo-footer"/> &copy; 2013  &nbsp;<!-- {%FOOTER_LINK} --> 
+    <div class="privacy"> <img src="/img/logo-footer.png" alt="" class="logo-footer"/> &copy; 2014  &nbsp;<!-- {%FOOTER_LINK} --> 
      </div>
   </div>
 </footer>

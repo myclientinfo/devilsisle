@@ -73,33 +73,22 @@
               @endforeach                  
                 </ul>
           </article>
-              <article class="span6" style="opacity: 0">
-            <div class="clearfix pad-top">
-                  <figure class="img-indent1"><img src="img/page1-img1.jpg " alt="" /></figure>
-                  <div class="title-1">Implementing 
-                NEW TECHNOLOGIES 
-                for agriculture 
-                growth </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-            <div class="row">
-                  <ul class="list-2 clearfix">
-                <li class="item-1 span2"> <strong>01/</strong>
-                      <h4>Agricultural<br>
-                    Seeds</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad. </p>
-                      <a href="#" class="link1">read more</a> </li>
-                <li class="item-2 span2"> <strong>02/</strong>
-                      <h4>research<br>
-                    &amp; development</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad. </p>
-                      <a href="#" class="link1">read more</a> </li>
-                <li class="item-3 span2"> <strong>03/</strong>
-                      <h4>product<br>
-                    safety</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad. </p>
-                      <a href="#" class="link1">read more</a> </li>
-              </ul>
+              <article class="span6">
+              <div class="clearfix pad-top">
+
+
+
+              <h2>good news and bad news</h2>
+
+              <p style="font-size: 16px; line-height: 150%">Non-Australians often have an impression of Australia as a land filled with terrifying nightmares made real - snakes, spiders, scorpions and centipedes, venom and poison and teeth and claws.</p>
+
+              <p style="font-size: 16px; line-height: 150%">The fact is, Australia has very few deaths from any of the above. No one has died from a spider bite since 1981 when Funnel Web Spider anti-venom was developed. There are no scorpions that are dangerous. Centipedes are much the same.</p>
+
+              <p style="font-size: 16px; line-height: 150%">Then there's the other important fact: of the people bitten, stung, scratched or kicked by Australia's wildlife, the vast majority were trying to catch something, or kill something. Most being about three quarters. No specific statistics are available on how many were immediately preceeded with "Mate, hold me beer!" but it would be a safe bet to think more than a few.</p>
+
+              <p style="font-size: 16px; line-height: 150%">Australia has a lot of nasty looking animals, especially in the spiders, that are actually completely harmless. Most particularly, the gigantic but otherwise harmless <a href="/Animals/spiders/golden-orb-weaver">Golden Orb Weaver</a> and <a href="/Animals/spiders/huntsman-spider">Huntsman</a> spiders. That said, the animals to the right? They will straight up kill you.</p>
+
+
                 </div>
           </article>
               <article class="span3">
