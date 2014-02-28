@@ -863,7 +863,7 @@ There is a choice Scorpions make, evolutionarily speaking. Am I going to be stro
 					'environment_id'=>'1'
 					],
 					['name'=>'Cane Toad',
-					'slug'=>'',
+					'slug'=>'cane-toad',
 					'aka'=>'',
 					'species'=>'Rhinella marinus',
 					'description'=>'',
