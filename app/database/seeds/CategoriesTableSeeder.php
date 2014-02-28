@@ -11,7 +11,7 @@ class CategoriesTableSeeder extends Seeder {
 			[
 				'name'=>'Spiders', 
 				'slug'=>'spiders',
-				'description'=>'Almost all spiders are venomous. But for the most part their venom has little or no effect on humans. There are only a few types of spiders that have venom that’s considered “medically significant”, or that will have any chance of causing more than trivial pain or sickness. In Australia, those specific spiders are the Redback Spider, the Mouse Spider, and the Sydney Funnel Web. That said, no one has died of any form of spider bite in Australia since the 1979.
+				'description'=>'Almost all spiders are venomous. But for the most part their venom has little or no effect on humans. There are only a few types of spiders that have venom that’s considered “medically significant”, or that will have any chance of causing more than trivial pain or sickness. In Australia, those specific spiders are the Redback Spider, the Mouse Spider, and the Sydney Funnel Web. That said, no one has died of any form of spider bite in Australia since 1981.
 '
 			],
 			[
@@ -27,7 +27,7 @@ class CategoriesTableSeeder extends Seeder {
 			[
 				'name'=>'Jellyfish', 
 				'slug'=>'jellyfish',
-				'description'=>'There are a hell of a lot of species of Jellyfish in the world, and the vast majority of them are pretty stingy. On a human, most of the effects will run from a mild irritation to an electric-shock-like burning pain. Unfotunately Australia has some of the worst examples of Jellyfish bastardry to be found anywhere in the world. There is also a the Portuguese Man o War included here just because it seemed logical even though it’s not technically a jellyfish.'
+				'description'=>'There are a hell of a lot of species of Jellyfish in the world, and the vast majority of them are pretty stingy. On a human, most of the effects will run from a mild irritation to an electric-shock-like burning pain. Unfortunately Australia has some of the worst examples of Jellyfish bastardry to be found anywhere in the world. There is also a the Portuguese Man o War included here just because it seemed logical even though it’s not technically a jellyfish.'
 			],
 			[
 				'name'=>'Fish', 
