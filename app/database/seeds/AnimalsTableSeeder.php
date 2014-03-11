@@ -452,11 +452,11 @@ They are fast, highly aggressive, extremely venomous, and routinely live where p
 
 Identifying a Taipan is a difficult skill that involves counting scales on parts of their body and measuring the width of the head. An easier method is to just see if it’s brown. If it’s brown it *might* be a Taipan, Australia’s second most dangerous snake, and that’s enough to be getting on with. It might not be, but if it’s not, it’s probably an [Eastern Brown Snake](/Animals/snakes/eastern-brown-snake), which is Australia’s **most** dangerous snake. Course, it could be a [Tiger snake](/Animals/snakes/tiger-snake)… the third most. Or.. A good rule of thumb is that if the snake is brown, your underpants should be as well.',
 					'short_description'=>'',
-					'appearance'=>'',
-					'danger'=>'',
-					'risk'=>'',
-					'category_id'=>'',
-					'environment_id'=>''
+					'appearance'=>'7',
+					'danger'=>'10',
+					'risk'=>'9',
+					'category_id'=>'2',
+					'environment_id'=>'1'
 					],
 					['name'=>'Huntsman Spider',
 					'slug'=>'huntsman-spider',
