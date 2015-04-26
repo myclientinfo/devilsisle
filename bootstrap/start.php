@@ -36,7 +36,7 @@ $envMapping = [
 ];
 
 $env = $app->detectEnvironment(function () use ($envMapping) {
-    return $_SERVER['APP_ENV'] == 'local'? 'development' : 'production';
+    return getenv('APP_ENV') == 'local'? 'development' : 'production';
 });
 /*
 |--------------------------------------------------------------------------
