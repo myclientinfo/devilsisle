@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'devils-isle.mysql.eu1.frbit.com',
-			'database'  => 'devils-isle',
-			'username'  => 'devils-isle',
-			'password'  => 'JH8hOLzm76fh4gU0',
+			'database'  => 'forge',
+			'username'  => getenv('DB_USERNAME'),
+			'password'  => getenv('DB_PASSWORD'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

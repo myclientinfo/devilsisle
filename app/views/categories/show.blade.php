@@ -21,7 +21,7 @@
 					<h3>{{$category->name}}</h3>
 
 					<p>
-						{{ Markdown::string($category->description) }}
+						{{ Markdown::render($category->description) }}
 					</p>
 
 				

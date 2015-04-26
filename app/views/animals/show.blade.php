@@ -25,7 +25,7 @@
 
                 <div class="span8">
 
-                    {{ Markdown::string($animal->description) }}
+                    {{ Markdown::render($animal->description) }}
 
                 </div>
 

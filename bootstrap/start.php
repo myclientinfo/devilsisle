@@ -13,7 +13,7 @@
 
 $app = new Illuminate\Foundation\Application;
 
-$app->redirectIfTrailingSlash();
+//$app->redirectIfTrailingSlash();
 
 /*
 |--------------------------------------------------------------------------
@@ -31,15 +31,13 @@ $envMapping = [
     'www.devilsisle.com' => 'production',
     'devilsisle.com' => 'production',
     'devils'            => 'development',
+    'devilsisle.app'            => 'development',
     // ..
 ];
-$env = $app->detectEnvironment(function () use ($envMapping) {
-    return isset($envMapping[$_SERVER['SERVER_NAME']])
-        ? $envMapping[$_SERVER['SERVER_NAME']]
-        : 'production'; // or whatever fallback you prefer
 
+$env = $app->detectEnvironment(function () use ($envMapping) {
+    return $_SERVER['APP_ENV'] == 'local'? 'development' : 'production';
 });
-//dd();
 /*
 |--------------------------------------------------------------------------
 | Bind Paths

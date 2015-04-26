@@ -165,7 +165,7 @@
 <!--============================== footer =================================-->
 <footer>
       <div class="container">
-    <div class="privacy"> <img src="/img/logo-footer.png" alt="" class="logo-footer"/> &copy; 2014  &nbsp;<!-- {%FOOTER_LINK} --> 
+    <div class="privacy"> <img src="/img/logo-footer.png" alt="" class="logo-footer"/> &copy; 2015  &nbsp;<!-- {%FOOTER_LINK} --> 
      </div>
   </div>
 </footer>
