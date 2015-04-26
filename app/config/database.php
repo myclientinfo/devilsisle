@@ -54,8 +54,8 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'devils-isle.mysql.eu1.frbit.com',
-			'database'  => 'forge',
+			'host'      => getenv('DB_HOST'),
+			'database'  => getenv('DB_DATABASE'),
 			'username'  => getenv('DB_USERNAME'),
 			'password'  => getenv('DB_PASSWORD'),
 			'charset'   => 'utf8',
