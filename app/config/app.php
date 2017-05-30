@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(E_ERROR);
 return array(
 
 	/*
@@ -14,7 +14,7 @@ return array(
 	*/
 
 	'debug' => true,
-
+	'cipher' => 'AES-256-CBC',
 	/*
 	|--------------------------------------------------------------------------
 	| Application URL
@@ -64,8 +64,7 @@ return array(
 	| will not be safe. Please do this before deploying an application!
 	|
 	*/
-
-	'key' => '0TmYhnFKqF1mjCvB2aXusVO4QAVmkvza',
+	'key' => 'UoskRPW7EoJh1RBnDjDuOGNDIUxqReQd',
 
 	/*
 	|--------------------------------------------------------------------------

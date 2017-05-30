@@ -22,6 +22,9 @@ class CreateAnimalsTable extends Migration {
 			$table->integer('danger');
 			$table->integer('risk');
 			$table->integer('category_id');
+			$table->string('slug');
+			$table->integer('environment_id');
+			$table->string('aka');
 			$table->timestamps();
 		});
 	}

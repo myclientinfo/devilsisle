@@ -10,7 +10,6 @@
 | your classes in the "global" namespace without Composer updating.
 |
 */
-
 ClassLoader::addDirectories(array(
 
 	app_path().'/commands',
@@ -19,7 +18,6 @@ ClassLoader::addDirectories(array(
 	app_path().'/database/seeds',
 
 ));
-
 /*
 |--------------------------------------------------------------------------
 | Application Error Logger

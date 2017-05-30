@@ -14,7 +14,9 @@
 View::share('categories', Category::remember(5)->get());
 
 Route::get('/', 'AnimalsController@home');
-
+//Route::get('/', function(){
+//	return false;
+//});
 
 Route::get('/Animals', 'AnimalsController@base');
 Route::get('/Animals/{category}', 'CategoriesController@show');
