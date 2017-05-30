@@ -25,7 +25,7 @@ class CreateAnimalsTable extends Migration {
 			$table->string('slug');
 			$table->integer('environment_id');
 			$table->string('aka');
-			$table->timestamps();
+			$table->nullableTimestamps();
 		});
 	}
 

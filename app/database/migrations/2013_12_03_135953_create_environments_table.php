@@ -15,7 +15,7 @@ class CreateEnvironmentsTable extends Migration {
 		Schema::create('environments', function(Blueprint $table) {
 			$table->increments('id');
 			$table->string('name');
-			$table->timestamps();
+			$table->nullableTimestamps();
 		});
 	}
 
